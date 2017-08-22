@@ -1,9 +1,0 @@
-post_install() {
-	echo "	>> Create directory for log on /var/log/s6rc/connmand" 
-	mkdir -p -m 0755 /var/log/s6rc/connmand
-	chown -R s6log:log /var/log/s6rc/connmand 
-	
-	echo "	>> Create directory for log on /var/log/s6rc/connman-vpnd" 
-	mkdir -p -m 0755 /var/log/s6rc/connman-vpnd
-	chown -R s6log:log /var/log/s6rc/connman-vpnd 
-}
