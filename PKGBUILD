@@ -12,7 +12,7 @@ license=('ISC')
 depends=("${_depends}" 's6' 's6-rc' 's6-boot' 's6opts')
 makedepends=('util-linux' 'findutils')
 conflicts=()
-source=("$pkgname::git+https://github.com/obarun-pkgbuild/${pkgname}#branch=dev")
+source=("$pkgname::git+https://github.com/obarun-pkgbuild/${pkgname}#branch=master")
 md5sums=('SKIP')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
 
